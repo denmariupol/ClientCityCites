@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_item_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:title="Новости"
+            android:icon="@mipmap/news"></item>
+    </group>
+    <group
+        android:id="@+id/group_item_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="Настройки"
+            android:icon="@mipmap/settings"></item>
+    </group>
+    <group
+        android:id="@+id/group_item_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:title="О программе"
+            android:icon="@mipmap/about"></item>
+    </group>
+</menu>
